@@ -1,0 +1,357 @@
+a {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: inherit; /* 링크의 색상 제거 */
+}
+
+//$black : #353535;
+//$realBlack : #000000;
+//$white : #ffffff;
+//$borderLine : #BDBDBD;
+//$grey : #D5D5D5;
+//
+//* {
+//    margin: 0;
+//    padding: 0;
+//    box-sizing: border-box;
+//
+//    &::-webkit-scrollbar {
+//        width: 12px;
+//    }
+//
+//    &::-webkit-scrollbar-thumb {
+//        background-color: $black;
+//        border-radius: 10px;
+//        background-clip: padding-box;
+//        border: 2px solid transparent;
+//    }
+//
+//    &::-webkit-scrollbar-track {
+//        background-color: grey;
+//        border-radius: 10px;
+//        box-shadow: inset 0px 0px 5px $white;
+//    }
+//}
+//
+////프로젝트 내 모든 a태그(router태그) 적용
+//a {
+//    text-decoration: none;
+//}
+//a:visited{
+//    color: $white;
+//    // color: none;
+//}
+//
+//.allWrap {
+//    position: relative;
+//    width: 100%;
+//    height: 100vh;
+//    margin: 0 auto;
+//    border: 1px solid $borderLine;
+//    border-bottom: none;
+//}
+////로고
+//.hellzzangLogo{
+//    background: url("~@/assets/images/hellzzangLogoBlack.png") no-repeat center;
+//    background-size: cover;
+//    border-radius: 50%;
+//    border: 1px solid $white;
+//}
+//.hellzzangLogoWhite{
+//    background: url("~@/assets/images/hellzzangLogoWhite.png") no-repeat center;
+//    background-size: cover;
+//    border-radius: 50%;
+//    border: 1px solid $black;
+//}
+////로고사이즈
+//.logoSizeB{
+//    width: 300px;
+//    height: 300px;
+//}
+//.logoSizeM{
+//    width: 100px;
+//    height: 100px;
+//}
+//.logoSizeS{
+//    width: 70px;
+//    height: 70px;
+//}
+//
+////content
+//.commonTab {
+//    width: 100%;
+//    margin-top: 85px;
+//    padding-bottom: 70px;
+//    border: 1px solid $borderLine;
+//    border-bottom: none;
+//}
+////입력창 공통
+//.inputInfo{
+//    width: 100%;
+//    height: 30px;
+//    font-weight: bold;
+//    font-size: 18px;
+//
+//    &:focus{
+//        background-color: $black;
+//        color: $white;
+//        transition: all ease 1s;
+//    }
+//}
+////안쓸수도 있음
+//.detex{
+//    min-width: 80%;
+//    max-width: 80%;
+//    min-height: 600px;
+//    font-size: 20px;
+//}
+////버튼 공통
+//.Btns{
+//    display: block;
+//    width: 30%;
+//    height: 30px;
+//    margin-top: 4px;
+//    border: none;
+//    border-radius: 5px;
+//    font-weight: bold;
+//    cursor: pointer;
+//
+//    &:hover{
+//        background-color: $black;
+//        color: $white;
+//        transition: all 0.3s ease;
+//    }
+//
+//    &:active{
+//        opacity: 0.8;
+//    }
+//}
+//
+////header
+//.header {
+//    position: fixed;
+//    width: 100%;
+//    height: 10.5vh;
+//    margin: 0 auto;
+//    padding-left: 10px;
+//    top: 0;
+//    left: 0;
+//    right: 0;
+//    color: $white;
+//    background-color: $black;
+//    display: flex;
+//    align-items: center;
+//    justify-content: space-between;
+//    font-weight: bold;
+//    z-index: 20;
+//
+//    a{
+//        width: 20%;
+//
+//        .headerImage {
+//            width: 70px;
+//        }
+//    }
+//
+//    .headerTitle {
+//        width: 60%;
+//        font-size: 20px;
+//        text-align: center;
+//    }
+//
+//    .headerUser {
+//        width: 20%;
+//        font-size: 13px;
+//        text-align: right;
+//        display: flex;
+//
+//        a{
+//            width: 80%;
+//        }
+//    }
+//}
+//
+////subMenu
+//.subMenu{
+//    height: 50px;
+//
+//    ul{
+//        height: 100%;
+//        list-style: none;
+//        display: flex;
+//        align-items: center;
+//        font-weight: bold;
+//        color: $white;
+//
+//        li{
+//            padding-inline: 10px;
+//            margin-left: 10px;
+//            border: 1.5px solid #5D5D5D;
+//            border-radius: 10px;
+//
+//            a{
+//                font-size: 15px;
+//            }
+//
+//            a:visited{
+//                color: #5D5D5D;
+//            }
+//        }
+//    }
+//}
+//
+////footer
+//.footer {
+//    position: fixed;
+//    width: 100%;
+//    margin: 0 auto;
+//    left: 0;
+//    right: 0;
+//    bottom: 0;
+//    height: 7.2vh;
+//    border: 1px solid $realBlack;
+//    background-color: $black;
+//    z-index: 20;
+//
+//    .footerMenu {
+//        width: 100%;
+//        height: 100%;
+//        line-height: 4rem;
+//        list-style: none;
+//        display: flex;
+//        justify-content: center;
+//
+//        li {
+//            width: 100%;
+//            text-align: center;
+//
+//            a {
+//                width: 100%;
+//                display: block;
+//                font-weight: bold;
+//                color: $white;
+//
+//                &:hover {
+//                    background-color: $white;
+//                    color: $realBlack;
+//                }
+//
+//                &:active {
+//                    opacity: 0.9;
+//                }
+//
+//                &:focus {
+//                    background-color: $white;
+//                    color: $realBlack;
+//                }
+//            }
+//
+//            &:not(:first-child){
+//                border-left: 1px solid $white;
+//            }
+//        }
+//    }
+//}
+//
+//.filebox{
+//    margin: 20px auto 0;
+//    display: flex;
+//
+//    .Btns{
+//        margin: 0 auto;
+//    }
+//
+//    input[type="file"] {
+//        position: absolute;
+//        width: 0;
+//        height: 0;
+//        padding: 0;
+//        overflow: hidden;
+//        border: 0;
+//    }
+//
+//    label {
+//        display: block;
+//        width: 100%;
+//        border: none;
+//        border-radius: 5px;
+//        font-weight: bold;
+//        cursor: pointer;
+//
+//        &:hover{
+//            background-color: $black;
+//            color: $white;
+//            transition: all 0.3s ease;
+//        }
+//
+//        &:active{
+//            opacity: 0.8;
+//        }
+//    }
+//}
+//
+//
+////경고문구
+//.warnText{
+//    margin-block: 8px;
+//    font-size: 13px;
+//    color: red;
+//}
+////올바른 문구
+//.correctText{
+//    margin-block: 8px;
+//    font-size: 13px;
+//    color: blue;
+//}
+//
+//.flexBetween {
+//    display: flex;
+//    justify-content: space-between;
+//}
+//
+//.flexEvenly {
+//    display: flex;
+//    justify-content: space-evenly;
+//}
+//
+//.bold{
+//    font-weight: bold;
+//}
+//
+//.center {
+//    text-align: center;
+//}
+//
+//.radius {
+//    border-radius: 12px;
+//}
+//
+//.bgGrey {
+//    background-color: $grey;
+//}
+//
+//.bgGray2 {
+//    background-color: #F6F6F6
+//}
+//
+//.bgWhite {
+//    background-color: $white;
+//}
+//
+//// @media screen and (max-width : 2560px) {
+////     .sideMenu {
+////         height: 90vh;
+////     }
+//// }
+//
+//// @media screen and (max-width : 1710px) {
+////     .sideMenu {
+////         height: 86vh;
+////     }
+//// }
+//
+//
+//
+//.shopRouter{
+//    margin-top: 60px;
+//}
