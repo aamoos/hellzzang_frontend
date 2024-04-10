@@ -26,6 +26,9 @@
 # admin Repository url
 - https://github.com/aamoos/hellzzang_admin
 
+# android webview repository url
+- https://github.com/aamoos/hellzzang_webview.git
+
 ## Project setup
 ```
 npm install
