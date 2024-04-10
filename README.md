@@ -14,6 +14,9 @@
 - VCalendar, swiper/vue
 - chart js
 
+# backend repository url
+- https://github.com/aamoos/hellzzang_backend
+
 ## Project setup
 ```
 npm install
