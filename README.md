@@ -17,6 +17,9 @@
 # backend repository url
 - https://github.com/aamoos/hellzzang_backend
 
+# admin Repository url
+- https://github.com/aamoos/hellzzang_admin
+
 ## Project setup
 ```
 npm install
