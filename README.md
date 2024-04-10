@@ -16,7 +16,7 @@
 
 # frontend repository url
 - https://github.com/aamoos/hellzzang_frontend
-- 
+
 # backend repository url
 - https://github.com/aamoos/hellzzang_backend
 
